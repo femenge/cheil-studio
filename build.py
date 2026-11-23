@@ -3,7 +3,7 @@
 import json, os, html
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(ROOT, "site")
+OUT = os.path.join(ROOT, "docs")
 SZ = json.load(open(os.path.join(ROOT, "sizes.json")))
 
 VIDEOS = {
